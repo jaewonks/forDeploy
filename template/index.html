@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+  <title>Fair N' Square</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">Fair N' Square</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Shopping Categories</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Pants</a>
+        </li>
+
+        <li>
+          <a href="index.html">Shirts</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/1600522711062_CDG_PLAY_AZ-N066-051-2-4.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/1600530573956_CDG_PLAY_AZ-N066-051-1-4.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/1600532197341_CDG_PLAY_AZ-N066-051-3-4.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/az-t167-051-1_1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/PLAY_AZ-N074-051-1-4_047_10.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/PLAY_AZ-N074-051-2-4_049_10.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Slim Shirt</a>
+              </div>
+              <div class="product-brand">comme des garcons</div>
+              <div class="product-price">£60</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      All right reserved.
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
